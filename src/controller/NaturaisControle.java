@@ -1,8 +1,12 @@
 package controller;
 
 public class NaturaisControle {
+	
+	public NaturaisControle() {
+		super();
+	}
 
-	public static int somaNatu(int N) {
+	public  int somaNatu(int N) {
 		//Condição de parada -> Quando N for subtraído até ser 0 ou o número lido for negativo
 		if (N<=0)
 		{
